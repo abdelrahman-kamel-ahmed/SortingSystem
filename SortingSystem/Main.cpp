@@ -7,11 +7,12 @@ int main() {
     int n;
     cout << "Enter the number of elements: ";
     cin >> n;
-
     SortingSystem<string> sorter(n);
     sorter.showMenu();
-  /*  sorter.selectionSort();*/
     sorter.measureSortingTime();
+    cout << "Sorted Data: ";
+    sorter.displayData();
+
 
     return 0;
 
