@@ -9,7 +9,7 @@ private:
 public:
     SortingSystem(int n); //constructor
     ~SortingSystem(); //destructor
-    //void insertionSort(); //insertion sort
+    void insertionSort(); //insertion sort
     void selectionSort(); //selection sort
     void bubbleSort(); //bubble sort
     //void mergeSort(int left, int right); //merge sort
