@@ -21,8 +21,10 @@ SortingSystem<T>::~SortingSystem() {
 template<typename T>
 void SortingSystem<T>::showMenu() {
     cout << "please choose the sort" << endl;
-    
+
     cout << "1.selection sort" << endl;
+    //cout << "2.insertion sort" << endl;
+    cout << "3.bubble sort" << endl;
     cin >> choice;
      
     
@@ -45,6 +47,10 @@ void SortingSystem<T>::measureSortingTime() {
     {
     case 1:
         selectionSort();
+    //case 2:
+        //insertionSort();
+    case 3:
+		bubbleSort();
     default:
         break;
     }

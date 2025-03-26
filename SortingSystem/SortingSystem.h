@@ -11,8 +11,8 @@ public:
     ~SortingSystem(); //destructor
     //void insertionSort(); //insertion sort
     void selectionSort(); //selection sort
-    //void bubbleSort(); //bubble sort
-    //void mergeSort(int left, int right); //merge sort
+    void bubbleSort(); //bubble sort
+    void mergeSort(int left, int right); //merge sort
     //void quickSort(int left, int right); //quick sort
     //void countSort(); //count sort
     //void radixSort();//radix sort
