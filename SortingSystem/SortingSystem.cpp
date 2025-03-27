@@ -40,6 +40,7 @@ void SortingSystem<T>::showMenu() {
     cout << "2.insertion sort" << endl;
     cout << "3.bubble sort" << endl;
     cout << "4.quick sort" << endl;
+    cout << "5.shell sort" << endl;
     cin >> choice;
 
 
@@ -73,6 +74,11 @@ void SortingSystem<T>::measureSortingTime() {
     case 4:
         quickSort(0, 6);
         break;
+        
+    case 5:
+        shellSort();
+        break;
+
 
     default:
         break;
