@@ -17,7 +17,7 @@ public:
     //void countSort(); //count sort
     //void radixSort();//radix sort
     //void bucketSort(); //bucket sort
-    void shellSort(); //shell sort
+    void shellSort(); //shell sort.
     //void merge(int left, int mid, int right); //merge function for merge sort
     int partition(int left, int right); //partition function for quick sort
 
